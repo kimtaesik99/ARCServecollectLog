@@ -1,6 +1,6 @@
 $mailto = "Thomas Kim<thomaskim@kts.com>"
 $mailfrom = "ARCServ<arcalert@kts.com>"
-$smtpsvr = "xxx.xxx.xxx.xxx"
+$smtpsvr = "xx.xxx.xxx.xxx"
 $enc = New-Object System.Text.utf8encoding
 $bkresult = Get-Content C:\tool\bkresult.txt | %{ $_.split("|")[6];}
 $bkname = Get-Content C:\tool\bkresult.txt | %{ $_.split("|")[8];}
